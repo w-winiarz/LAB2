@@ -243,6 +243,37 @@ import sys
 #     lines=f.readlines()
 # print(lines)
 
+# ZADANIE1
+from random import randint
+a = [1-x for x in range(1,11)]
+print(a)
+b = [4**i for i in range(7)]
+print(b)
+c = [x for x in b if x % 2 == 0]
+print(c)
+
+# a=[]
+# for x in range (1,11):
+#     a.append(1-x)
+# print(a)
+# b=[]
+# for y in range(7):
+#     b.append(4**y)
+# print (b)
+# random.randint(45, 55)
+# lista1=[]
+# for i in range(10):
+#     lista1.append(randint(1,1000))
+# print (lista1)
+# lista2 = [i for i in lista1 if i % 2 == 0]
+# print(lista2)
+# ZADANIE3
+slownik={'mleko':'sztuki','jablka':'kg','czekolada':'sztuki'}
+
+print(slownik)
+
+
+
 
 
 
