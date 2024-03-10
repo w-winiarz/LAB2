@@ -217,6 +217,33 @@ import sys
 #
 # print(dlugosc_odcinka(3,5,y2=4, y1=3))
 
-plik=open()
+# plik=open('tekst.txt','r',encoding='utf-8')
+# znaki=plik.read(10)
+#
+# linia=plik.readline()
+# linie=plik.readlines()
+# plik.close()
+# print(znaki)
+# print(linia)
+# print(linie)
+#
+# for l in linie:
+#     print(l)
+
+# plik=open('tekst.txt','a+')
+# plik.write('aaaaa')
+# plik.seek(105)
+# znaki=plik.read(10)
+#
+# plik.close()
+# print(znaki)
+
+# nie trzeba pamietać o zamknięciu pliku!
+# with open('tekst.txt','r') as f:
+#     lines=f.readlines()
+# print(lines)
+
+
+
 
 
